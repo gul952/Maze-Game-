@@ -74,14 +74,8 @@
 ##  Repository Structure
 
 /
-├─ src/  
-│  ├─ main.cpp           # Entry point, game loop  
-│  ├─ maze.cpp/.h        # Maze generation & rendering  
-│  ├─ player.cpp/.h      # Player state & movement  
-│  ├─ score.cpp/.h       # Scoring & high‑score file I/O  
-│  └─ audio.cpp/.h       # SFML audio management  
-├─ assets/  
-│  └─ sounds/            # .wav/.ogg files for footsteps, win jingle, etc.  
+
+├─ sourcecode.cpp        # game code
 ├─ TowerOfOdyssey.pdf    # Full design document and feature list :contentReference[oaicite:1]{index=1}  
 ├─ demo.mp4              # Gameplay walkthrough video  
 └─ README.md             # (You are here!)  
