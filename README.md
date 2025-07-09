@@ -1,4 +1,4 @@
-````markdown
+
 # Tower of Odyssey: Maze Adventure
 
 **Homer’s Circle** presents an immersive multi‑level console maze game built in C++ with SFML-powered audio.
