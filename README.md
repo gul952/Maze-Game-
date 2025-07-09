@@ -5,13 +5,13 @@
 
 ---
 
-## 📖 Description
+## Description
 
 **Tower of Odyssey** is a three‑floor maze challenge where the player navigates increasingly complex labyrinths, collects points, and races against time to reach the exit on each level. Your performance is tracked: scores are displayed in real‑time, top scores are saved between sessions, and you can continue an in‑progress game at your last completed floor :contentReference[oaicite:0]{index=0}.
 
 ---
 
-## 🎮 Features
+##  Features
 
 - **Three Distinct Levels**  
   - Level 1 (15×15), Level 2 (17×17), Level 3 (19×19) mazes  
@@ -44,10 +44,10 @@
 ### Building
 
 1. **Clone the repo**  
-   ```bash
+   
    git clone https://github.com/<your‑username>/tower‑of‑odyssey.git
    cd tower‑of‑odyssey
-````
+
 
 2. **Configure SFML**
 
@@ -59,11 +59,6 @@
    ```
 4. **Run**
 
-   ```bash
-   ./TowerOfOdyssey
-   ```
-
----
 
 ##  Controls
 
@@ -74,11 +69,10 @@
 * **Q**       : Quit Game
 * **Enter**   : Confirm “Continue?” prompt
 
----
+
 
 ##  Repository Structure
 
-```
 /
 ├─ src/  
 │  ├─ main.cpp           # Entry point, game loop  
@@ -91,11 +85,9 @@
 ├─ TowerOfOdyssey.pdf    # Full design document and feature list :contentReference[oaicite:1]{index=1}  
 ├─ demo.mp4              # Gameplay walkthrough video  
 └─ README.md             # (You are here!)  
-```
 
----
 
-## 🏗 Technical Highlights
+##  Technical Highlights
 
 * **Dynamic Memory**
 
@@ -113,7 +105,7 @@
 
   * Each subsystem (maze, player, scoring, audio) lives in its own pair of `.cpp/.h` for clarity and reuse.
 
----
+
 
 ## 🛠 Challenges & Learning
 
@@ -127,28 +119,20 @@
 
   * Integrating SFML audio without blocking the main game loop.
 
----
 
-## 🔗 Third‑Party Libraries
+
+##  Third‑Party Libraries
 
 * [**SFML**](https://www.sfml-dev.org/) — Multimedia library for C++ (System, Window, Audio)&#x20;
 
----
 
-## 🎥 Demo
+  Demo
+The mp4 present inside the repo is the demo video. You are required to download it in order to view it. 
 
-> [![Watch the demo video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](demo.mp4)
 
-*(Or see `demo.mp4` in this repo for a quick gameplay walkthrough.)*
 
----
+##  Thank You for Playing!
 
-## 🙏 Thank You for Playing!
+We hope **Tower of Odyssey** tests your maze‑navigating skills and inspires you to explore console game development further. 
 
-We hope **Tower of Odyssey** tests your maze‑navigating skills and inspires you to explore console game development further. Pull requests, stars, and feedback are always welcome!
-Happy coding & happy exploring!
 
----
-
-```
-```
